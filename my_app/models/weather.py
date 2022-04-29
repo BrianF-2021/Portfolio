@@ -20,7 +20,7 @@ class Weather:
     def __init__(self, city_state):
         self.geolocator = geo_locator.GeoLocator()
         self.city_state = city_state
-        self.api_key = "63fb857b220098705381335fa0fe3b4a"
+        self.api_key = ""
         self.weather_data = None
 
     def get_json_wx_data(self):
